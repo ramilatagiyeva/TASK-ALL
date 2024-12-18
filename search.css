@@ -1,0 +1,78 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Header */
+header .top, header .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .bottom ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .bottom ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Arama Sayfası */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;  /* Sayfanın ortasına yerleştir */
+    flex-direction: row;
+    gap: 20px;
+}
+
+#search {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer .footer-content {
+    margin-top: 20px;
+}
+
+footer span {
+    font-weight: bold;
+}
